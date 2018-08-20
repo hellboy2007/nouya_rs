@@ -1,6 +1,6 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"F:\site\nouya_rs\public/../nyinside/index\view\index\login.html";i:1534496073;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"F:\site\nouya_rs\public/../nyinside/index\view\index\login.html";i:1534754005;}*/ ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh-hans">
   <head>
     <meta charset="utf-8">
     <meta charset="utf-8">
@@ -26,7 +26,7 @@
         <h1>诺亚业务管理</h1>
       </div>
       <div class="login-box">
-        <form class="login-form" action="<?php echo url('Index/login'); ?>" method="post" id="login">
+        <form class="login-form" action="<?php echo url('Index/login'); ?>" id="login_form">
         <input type="hidden" id="passpt" value="<?php echo url('logindo'); ?>" />
         <input type="hidden" id="jamppt" value="<?php echo url('Index/index'); ?>" />
           <h3 class="login-head"><i class="fa fa-lg fa-fw fa-user"></i>登录</h3>
@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="form-group btn-container">
-            <button class="btn btn-primary btn-block"><i class="fa fa-sign-in fa-lg fa-fw"></i>登录</button>
+            <button class="btn btn-primary btn-block loginbtn" type="button"><i class="fa fa-sign-in fa-lg fa-fw"></i>登录</button>
           </div>
         </form>
 
@@ -69,14 +69,12 @@
 
       </div>
     </section>
-
+<?php $time = time(); ?>
   <script src="/js/jquery-2.1.4.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/plugins/pace.min.js"></script>
   <script src="/js/main.js"></script>
-  <script src="/js/login.js"></script>
-
-    
+  <script src="/js/login.js?t=<?php echo $time; ?>"></script>
   </body>
 
 </html>

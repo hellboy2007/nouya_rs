@@ -8,11 +8,15 @@ class Index extends controller
 
 	public function index(){
 		if(Session::has('login_info')){
-			dump(Session::get('login_info'));
+			// dump(Session::get('login_info'));
+			$this->redirect('Base/index');
 		}else{
-			$this->redirect('login_form', ['cate_id' => 2]);
+			$this->redirect('login_form', ['login_id' =>time() ]);
 		}
+	}
 
+	public function logout(){
+		$this->redirect('login_form', ['login_id' =>2 ]);
 	}
 
 	public function login_form(){
@@ -20,31 +24,37 @@ class Index extends controller
 	}
 
 	public function logindo(){
-		$menu           = $this->menu();
+		$user['mail'] 		= input('param.mail');
+		$user['password'] = input('param.password');
 
+		$menu     				= $this->menu();
+		//
 		$back_data   = [
 			'menu' => $menu,
 			'user' => [
-				'uid'		=>'110',
+				'uid'				=>'110',
 				'nikename'	=>'兰纯钰',
-				'mail'		=>'ny_lanchunyu@163.com',
-				'phone'		=>'15285087689',
+				'mail'			=>'ny_lanchunyu@163.com',
+				'phone'			=>'15285087689',
 			],
 		];
-        session('login_info', $back_data);
+    session('login_info',$back_data);
+		// dump($user);exit;
 
-        $ajaxData['status']  = 1;
-		echo json_encode($ajaxData);
+    $ajaxData['user']    = $user;
+    $ajaxData['status']  = 1;
+		return json_encode($ajaxData);
 	}
 
-	public function menu(){
-
+	public function menu() {
 		return [
-			'employee'		=>['name'=>'员工管理', action=>'Index/index'],
-			'organization'	=>['name'=>'组织管理', action=>'Index/index'],
-			'ecruit'		=>['name'=>'招聘管理', action=>'Index/index'],
-			'approval'		=>['name'=>'审批', action=>'Index/index'],
-			'attendance'	=>['name'=>'考勤', action=>'Index/index'],
+			'workspace'			=> ['name'=>'我的工作台', 'action'=>'Index/index','icon'=>'fa-laptop'],
+			'employee'			=> ['name'=>'员工管理', 'action'=>'Index/index','icon'=>'fa-user'],
+			'organization'	=> ['name'=>'组织管理', 'action'=>'Index/index','icon'=>'fa-th'],
+			'ecruit'				=> ['name'=>'招聘管理', 'action'=>'Index/index','icon'=>'fa-hand-grab-o'],
+			'approval'			=> ['name'=>'审批', 'action'=>'Index/index','icon'=>'fa-check-square'],
+			'attendance'		=> ['name'=>'考勤', 'action'=>'Index/index','icon'=>'fa-table'],
+			'system'		=> ['name'=>'系统设置', 'action'=>'Index/index','icon'=>'fa-gear'],
 		];
 	}
     // public function index()
