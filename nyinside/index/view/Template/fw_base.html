@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__css/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__css/font-awesome.min.css">
+    {block name="title"}<title>__TITLE__</title>{/block}
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!--if lt IE 9
+    script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+    script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+    -->
+  </head>
+  <body class="sidebar-mini fixed">
+    <div class="wrapper">
+      <!-- 顶部导航-->
+      {include file="Common:header" /}
+
+      <!-- 左侧竖导航条-->
+      {include file="Common:sidebar" /}
+
+
+      <div class="content-wrapper">
+
+      <!--如果含子菜单就包含进来-->
+      {if condition="true"}
+        {include file="Common:sub_menu" /}
+      {/if}
+
+
+        <div class="page-title">
+          <div>
+            <h1><i class="fa fa-laptop"></i> 我的工作台</h1>
+            <p>工作汇总与提示</p>
+          </div>
+          <div>
+            <ul class="breadcrumb">
+              <li><i class="fa fa-home fa-lg"></i></li>
+              <li><a href="#">Dashboard</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <h3 class="card-title">日历</h3>
+              <p><div class="row">
+                <div class="col-md-12">
+                  <div class="card row">
+                    <div class="col-md-3">
+                      <div id="external-events">
+                        <h4 class="mb-20">可拖放事件</h4>
+                        <div class="fc-event">考勤</div>
+                        <div class="fc-event">调查</div>
+                        <div class="fc-event">工资计算</div>
+                        <div class="fc-event">计划安排</div>
+                        <div class="fc-event">完成核实</div>
+                        <p class="animated-checkbox mt-20">
+                          <label>
+                            <input id="drop-remove" type="checkbox"><span class="label-text">删除后下调</span>
+                          </label>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div id="calendar"></div>
+                    </div>
+                  </div>
+                </div>
+              </div></p>
+
+              <p class="mt-40 mb-20">
+                <a class="btn btn-primary icon-btn mr-10" href="http://pratikborsadiya.in/blog/vali-admin" target="_blank"><i class="fa fa-file"></i>Docs</a>
+                <a class="btn btn-info icon-btn mr-10" href="https://github.com/pratikborsadiya/vali-admin" target="_blank"><i class="fa fa-github"></i>GitHub</a>
+                <a class="btn btn-success icon-btn" href="https://github.com/pratikborsadiya/vali-admin/archive/master.zip" target="_blank"><i class="fa fa-download"></i>Download</a></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <h3 class="card-title">当日记事</h3>
+              <p> 世界上最遥远的距离，不是生与死的距离，不是天各一方，而是，我就站在你的面前，你却不知道我爱你。   --张小娴作品《荷包里的单人床》</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <h3 class="card-title">快捷操作</h3>
+              <p>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>导入花名册</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>添加在职员工</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>添加待入职</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>入职、转正管理</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>离职管理</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>企业短信</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>员工测评</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>背景调查</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>人事报表</a>
+                <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa"></i>基础设置</a>
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        更多内容 <a href="###" target="_blank" title="模板">底部</a> - Collect from <a href="###" title="网页模板" target="_blank">网页模板</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- Javascripts-->
+    <script src="__PUBLIC__js/jquery-2.1.4.min.js"></script>
+    <script src="__PUBLIC__js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__js/plugins/pace.min.js"></script>
+    <script src="__PUBLIC__js/main.js"></script>
+
+    <script type="text/javascript" src="__PUBLIC__js/plugins/moment.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__js/plugins/jquery-ui.custom.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__js/plugins/fullcalendar.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+      	$('#external-events .fc-event').each(function() {
+
+      		// store data so the calendar knows to render an event upon drop
+      		$(this).data('event', {
+      			title: $.trim($(this).text()), // use the element's text as the event title
+      			stick: true // maintain when user navigates (see docs on the renderEvent method)
+      		});
+
+      		// make the event draggable using jQuery UI
+      		$(this).draggable({
+      			zIndex: 999,
+      			revert: true,      // will cause the event to go back to its
+      			revertDuration: 0  //  original position after the drag
+      		});
+
+      	});
+
+      	$('#calendar').fullCalendar({
+      		header: {
+      			left: 'prev,next today',
+      			center: 'title',
+      			right: 'month,agendaWeek,agendaDay'
+      		},
+      		editable: true,
+      		droppable: true, // this allows things to be dropped onto the calendar
+      		drop: function() {
+      			// is the "remove after drop" checkbox checked?
+      			if ($('#drop-remove').is(':checked')) {
+      				// if so, remove the element from the "Draggable Events" list
+      				$(this).remove();
+      			}
+      		}
+      	});
+
+
+      });
+    </script>
+  </body>
+</html>

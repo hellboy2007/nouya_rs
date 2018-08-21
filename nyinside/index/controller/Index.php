@@ -1,4 +1,7 @@
 <?php
+/**
+ * 功能：登录，错误显示，等默认操作
+ */
 namespace app\index\controller;
 use think\Controller;
 use think\Session;
@@ -9,7 +12,7 @@ class Index extends controller
 	public function index(){
 		if(Session::has('login_info')){
 			// dump(Session::get('login_info'));
-			$this->redirect('Base/index');
+			$this->redirect('Center/index');
 		}else{
 			$this->redirect('login_form', ['login_id' =>time() ]);
 		}
@@ -48,13 +51,37 @@ class Index extends controller
 
 	public function menu() {
 		return [
-			'workspace'			=> ['name'=>'我的工作台', 'action'=>'Index/index','icon'=>'fa-laptop'],
-			'employee'			=> ['name'=>'员工管理', 'action'=>'Index/index','icon'=>'fa-user'],
-			'organization'	=> ['name'=>'组织管理', 'action'=>'Index/index','icon'=>'fa-th'],
-			'ecruit'				=> ['name'=>'招聘管理', 'action'=>'Index/index','icon'=>'fa-hand-grab-o'],
-			'approval'			=> ['name'=>'审批', 'action'=>'Index/index','icon'=>'fa-check-square'],
-			'attendance'		=> ['name'=>'考勤', 'action'=>'Index/index','icon'=>'fa-table'],
-			'system'		=> ['name'=>'系统设置', 'action'=>'Index/index','icon'=>'fa-gear'],
+			'workspace'			=> [
+				'name'=>'我的工作台', 'action'=>'Index/index','icon'=>'fa-laptop','subflag'=>false,
+				'modules'=>['workspace','Index'],
+			],
+			'employee'			=> ['name'=>'员工管理', 'action'=>'#','icon'=>'fa-user','subflag'=>true,
+				'modules'=>['employee','roster','relations','archive','statistics','reportform','dynamic','setting',],
+													'subitems'=>[
+														'roster'			=> ['name'=>'员工花名册', 'action'=>'roster/lists','icon'=>'fa-angle-right'],
+														'relations'		=> ['name'=>'员工关系管理', 'action'=>'relations/enrollment','icon'=>'fa-angle-right'],
+														'archive'			=> ['name'=>'档案库', 'action'=>'archive/status','icon'=>'fa-angle-right'],
+														'statistics'	=> ['name'=>'统计分析', 'action'=>'statistics/overview','icon'=>'fa-angle-right'],
+														'reportform'	=> ['name'=>'人事报表', 'action'=>'reportform/index','icon'=>'fa-angle-right'],
+														'dynamic'			=> ['name'=>'人事动态', 'action'=>'dynamic/index','icon'=>'fa-angle-right'],
+														'setting'			=> ['name'=>'基础设置', 'action'=>'setting/home','icon'=>'fa-angle-right'],
+													],
+		],
+			'department'		=> ['name'=>'组织管理', 'action'=>'department/manage','icon'=>'fa-th', 'subflag'=>false,
+			'modules'=>['department'],
+		],
+			'recruitment'		=> ['name'=>'招聘管理', 'action'=>'','icon'=>'fa-hand-grab-o', 'subflag'=>false,
+			'modules'=>['recruitment'],
+		],
+			'approval'			=> ['name'=>'审批', 'action'=>'','icon'=>'fa-check-square', 'subflag'=>false,
+			'modules'=>['approval'],
+		],
+			'attendance'		=> ['name'=>'考勤', 'action'=>'','icon'=>'fa-table', 'subflag'=>false,
+			'modules'=>['attendance'],
+		],
+			'system'			  => ['name'=>'系统设置', 'action'=>'','icon'=>'fa-gear', 'subflag'=>false,
+			'modules'=>['system'],
+		],
 		];
 	}
     // public function index()

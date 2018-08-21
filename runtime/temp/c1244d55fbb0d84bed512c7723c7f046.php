@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:62:"F:\site\nouya_rs\public/../nyinside/index\view\base\first.html";i:1534834148;s:54:"F:\site\nouya_rs\nyinside\index\view\Page\fw_base.html";i:1534838435;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1534836401;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:62:"F:\site\nouya_rs\public/../nyinside/index\view\Base\first.html";i:1534840909;s:58:"F:\site\nouya_rs\nyinside\index\view\Template\fw_base.html";i:1534838435;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1534836401;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
