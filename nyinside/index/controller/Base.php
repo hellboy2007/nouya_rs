@@ -21,7 +21,7 @@ class Base extends controller
     $act_name     = $request->action();
     $module_name  = $request->module();
 
-    $reqest_info = [
+    $base_reqest = [
       'ctl_name' => $ctl_name,
       'act_name' => $act_name,
       'mod_name' => $module_name,
@@ -37,21 +37,38 @@ class Base extends controller
     // exit;
 
     //子菜单提取
-    $sub_menu = null;
-    if(!empty($login_info['menu'][$ctl_name]['subitems'])){
-      $sub_menu = $login_info['menu'][$ctl_name]['subitems'];
+    $sub_menu_key = null;
+    $sub_menu     = null;
+    foreach ($login_info['menu'] as $key => $md) {
+
+
+      if(in_array(strtolower($ctl_name), $md['modules'])){
+        $sub_menu_key = $key;
+        break;
+      }
     }
 
-    $base_info = [
+
+
+    if(!empty($login_info['menu'][$sub_menu_key]['subitems'])){
+      $sub_menu = $login_info['menu'][$sub_menu_key]['subitems'];
+    }
+
+
+    $base_user    = $login_info['user'];
+    $base_info    = [
       'menu'    => $login_info['menu'],
-      'reqest'  => $reqest_info,
-      'user'    => $login_info['user'],
       'sub_menu'=> $sub_menu
     ];
 
-    // p($base_info);exit;
+    
+    // p($sub_menu);
+    // p($ctl_name);
+    // exit;
 
-    $this->assign('base_info', $base_info);
+    $this->assign('base_info',   $base_info);
+    $this->assign('base_user',   $base_user);
+    $this->assign('base_reqest', $base_reqest);
   }
 
 }

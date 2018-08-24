@@ -1,11 +1,10 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:62:"F:\site\nouya_rs\public/../nyinside/index\view\Page\first.html";i:1534840909;s:58:"F:\site\nouya_rs\nyinside\index\view\Template\fw_base.html";i:1534843618;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1534844221;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1534843426;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:62:"F:\site\nouya_rs\public/../nyinside/index\view\Page\first.html";i:1534840909;s:58:"F:\site\nouya_rs\nyinside\index\view\Template\fw_base.html";i:1534908087;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1534905159;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1534843426;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <!-- Font-icon css-->
@@ -71,13 +70,7 @@
       <li<?php if($vo['subflag']): ?> class="treeview"<?php endif; ?>><a href="<?php echo $vo['action']; ?>"><i class="fa <?php echo $vo['icon']; ?>"></i><span><?php echo $vo['name']; ?></span>
         <?php if($vo['subflag']): ?><i class="fa fa-angle-right"></i><?php endif; ?>
       </a>
-        <?php if($vo['subflag']): ?>
-        <ul class="treeview-menu">
-          <?php if(is_array($vo['subitems']) || $vo['subitems'] instanceof \think\Collection || $vo['subitems'] instanceof \think\Paginator): $i = 0; $__LIST__ = $vo['subitems'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$items): $mod = ($i % 2 );++$i;?>
-            <li><a href="<?php echo $items['action']; ?>"><i class="fa <?php echo $items['icon']; ?>"></i> <?php echo $items['name']; ?></a></li>
-          <?php endforeach; endif; else: echo "" ;endif; ?>
-        </ul>
-        <?php endif; ?>
+        
      </li>
 
       <?php endforeach; endif; else: echo "" ;endif; ?>
@@ -136,7 +129,7 @@
       <div class="content-wrapper">
 
       <!--如果含子菜单就包含进来-->
-      <?php if(true): ?>
+      <?php if(($base_info['sub_menu'] != null)): ?>
         <div class="page-title" style="border-bottom:1px solid #eee">
   <div>
     <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa fa-file"></i>导航一</a>

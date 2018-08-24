@@ -15,13 +15,7 @@
       <li{if condition="$vo.subflag"} class="treeview"{/if}><a href="{$vo.action}"><i class="fa {$vo.icon}"></i><span>{$vo.name}</span>
         {if condition="$vo.subflag"}<i class="fa fa-angle-right"></i>{/if}
       </a>
-        {if condition="$vo.subflag"}
-        <ul class="treeview-menu">
-          {volist name="vo.subitems" id="items"}
-            <li><a href="{$items.action}"><i class="fa {$items.icon}"></i> {$items.name}</a></li>
-          {/volist}
-        </ul>
-        {/if}
+        
      </li>
 
       {/volist}
