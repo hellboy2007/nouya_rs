@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:62:"F:\site\nouya_rs\public/../nyinside/index\view\Page\first.html";i:1534840909;s:58:"F:\site\nouya_rs\nyinside\index\view\Template\fw_base.html";i:1534908087;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1534905159;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1534843426;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:62:"F:\site\nouya_rs\public/../nyinside/index\view\Page\first.html";i:1534840909;s:58:"F:\site\nouya_rs\nyinside\index\view\Template\fw_base.html";i:1535701797;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1536135632;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1535164543;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
@@ -66,14 +66,15 @@
 
     <!-- Sidebar Menu-->
     <ul class="sidebar-menu">
-      <?php if(is_array($base_info['menu']) || $base_info['menu'] instanceof \think\Collection || $base_info['menu'] instanceof \think\Paginator): $i = 0; $__LIST__ = $base_info['menu'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-      <li<?php if($vo['subflag']): ?> class="treeview"<?php endif; ?>><a href="<?php echo $vo['action']; ?>"><i class="fa <?php echo $vo['icon']; ?>"></i><span><?php echo $vo['name']; ?></span>
+      <?php foreach($base_info['menu'] as $k=>$vo): ?>
+      
+      <li class="<?php if($vo['subflag']): ?>treeview<?php endif; if($k == $base_info['mdu_key']): ?> active<?php endif; ?>"><a href="<?php echo $vo['action']; ?>"><i class="fa <?php echo $vo['icon']; ?>"></i><span><?php echo $vo['name']; ?></span>
         <?php if($vo['subflag']): ?><i class="fa fa-angle-right"></i><?php endif; ?>
       </a>
         
      </li>
 
-      <?php endforeach; endif; else: echo "" ;endif; ?>
+      <?php endforeach; ?>
       <!--li class="treeview"><a href="#"><i class="fa fa-laptop"></i><span>UI Elements</span><i class="fa fa-angle-right"></i></a>
         <ul class="treeview-menu">
           <li><a href="bootstrap-components.html"><i class="fa fa-circle-o"></i> Bootstrap Elements</a></li>
@@ -130,9 +131,12 @@
 
       <!--如果含子菜单就包含进来-->
       <?php if(($base_info['sub_menu'] != null)): ?>
-        <div class="page-title" style="border-bottom:1px solid #eee">
+        <div class="page-title" style="border-top:1px solid #eee">
   <div>
-    <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa fa-file"></i>导航一</a>
+<?php if(is_array($base_info['sub_menu']) || $base_info['sub_menu'] instanceof \think\Collection || $base_info['sub_menu'] instanceof \think\Paginator): $i = 0; $__LIST__ = $base_info['sub_menu'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?>
+    <a class="btn btn-primary icon-btn mr-10" href="<?php echo url($item['action']);; ?>" target="_blank"><i class="fa fa-file"></i><?php echo $item['name']; ?></a>
+<?php endforeach; endif; else: echo "" ;endif; ?>
+
   </div>
 </div>
 
@@ -161,7 +165,9 @@
               <p><div class="row">
                 <div class="col-md-12">
                   <div class="card row">
-                    <div class="col-md-3">
+
+
+                    <!--div class="col-md-3">
                       <div id="external-events">
                         <h4 class="mb-20">可拖放事件</h4>
                         <div class="fc-event">考勤</div>
@@ -175,8 +181,11 @@
                           </label>
                         </p>
                       </div>
-                    </div>
-                    <div class="col-md-9">
+                    </div-->
+
+
+
+                    <div class="col-md-12">
                       <div id="calendar"></div>
                     </div>
                   </div>
@@ -192,7 +201,7 @@
           <div class="col-md-6">
             <div class="card">
               <h3 class="card-title">当日记事</h3>
-              <p> 世界上最遥远的距离，不是生与死的距离，不是天各一方，而是，我就站在你的面前，你却不知道我爱你。   --张小娴作品《荷包里的单人床》</p>
+              <p> 世界上最遥远的距离，不是生与死的距离，不是天各一方，而是，我就站在你的面前，你却不知道我爱你。   </p><p>--张小娴作品《荷包里的单人床》</p>
             </div>
           </div>
         </div>

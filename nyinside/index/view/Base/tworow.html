@@ -1,0 +1,23 @@
+<!-- 两列分隔  -->
+              <div class="row">
+
+
+                {foreach $row as $fitem}
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="col-lg-2 control-label" for="inputEmail">{$fitem.name}</label>
+                        <div class="col-lg-10">
+
+                          <!--input class="form-control" id="inputEmail" type="text" placeholder="{$fitem.name}"-->
+                          <?php echo $form->get_form_item($fitem); ?>
+                        </div>
+                    </div>
+                  </div>
+                {/foreach}
+
+
+
+              </div>
+
+
+              <div class="clearfix"></div>

@@ -11,14 +11,15 @@
 
     <!-- Sidebar Menu-->
     <ul class="sidebar-menu">
-      {volist name="$base_info.menu" id="vo"}
-      <li{if condition="$vo.subflag"} class="treeview"{/if}><a href="{$vo.action}"><i class="fa {$vo.icon}"></i><span>{$vo.name}</span>
+      {foreach $base_info['menu'] as $k=>$vo}
+      
+      <li class="{if condition='$vo.subflag'}treeview{/if}{if condition='$k == $base_info.mdu_key'} active{/if}"><a href="{$vo.action}"><i class="fa {$vo.icon}"></i><span>{$vo.name}</span>
         {if condition="$vo.subflag"}<i class="fa fa-angle-right"></i>{/if}
       </a>
         
      </li>
 
-      {/volist}
+      {/foreach}
       <!--li class="treeview"><a href="#"><i class="fa fa-laptop"></i><span>UI Elements</span><i class="fa fa-angle-right"></i></a>
         <ul class="treeview-menu">
           <li><a href="bootstrap-components.html"><i class="fa fa-circle-o"></i> Bootstrap Elements</a></li>

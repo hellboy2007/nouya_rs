@@ -52,19 +52,25 @@ class Index extends controller
 	public function get_menu() {
 		return [
 			'workspace'			=> [
-				'name'=>'我的工作台', 'action'=>'Index/index','icon'=>'fa-laptop','subflag'=>false,
-				'modules'=>['workspace','Index'],
+				'name'		=>'我的工作台', 
+				'action'	=>'Index/index',
+				'icon'		=>'fa-laptop',
+				'subflag'	=>false,
+				'modules'	=>['workspace','Index'],
 			],
-			'employee'			=> ['name'=>'员工管理', 'action'=>url('roster/lists'),'icon'=>'fa-user','subflag'=>true,
+			'employee'			=> [
+				'name'=>'员工管理', 
+				'drscribt'=>'',
+				'action'=>url('roster/lists'),'icon'=>'fa-user','subflag'=>true,
 				'modules'=>['employee','roster','relations','archive','statistics','reportform','dynamic','setting',],
-													'subitems'=>[
-														'roster'			=> ['name'=>'员工花名册', 'action'=>url('roster/lists'),'icon'=>'fa-angle-right'],
-														'relations'		=> ['name'=>'员工关系管理', 'action'=>url('relations/enrollment'),'icon'=>'fa-angle-right'],
-														'archive'			=> ['name'=>'档案库', 'action'=>url('archive/status'),'icon'=>'fa-angle-right'],
-														'statistics'	=> ['name'=>'统计分析', 'action'=>url('statistics/overview'),'icon'=>'fa-angle-right'],
-														'reportform'	=> ['name'=>'人事报表', 'action'=>url('reportform/index'),'icon'=>'fa-angle-right'],
-														'dynamic'			=> ['name'=>'人事动态', 'action'=>url('dynamic/index'),'icon'=>'fa-angle-right'],
-														'setting'			=> ['name'=>'基础设置', 'action'=>url('setting/home'),'icon'=>'fa-angle-right'],
+					'subitems'=>[
+						'roster'	=> ['name'=>'员工花名册', 'action'=>url('roster/lists'),'icon'=>'fa-angle-right'],
+						'relations'	=> ['name'=>'员工关系管理', 'action'=>url('relations/enrollment'),'icon'=>'fa-angle-right'],
+						'archive'	=> ['name'=>'档案库', 'action'=>url('archive/status'),'icon'=>'fa-angle-right'],
+						'statistics'=> ['name'=>'统计分析', 'action'=>url('statistics/overview'),'icon'=>'fa-angle-right'],
+						'reportform'=> ['name'=>'人事报表', 'action'=>url('reportform/index'),'icon'=>'fa-angle-right'],
+						'dynamic'	=> ['name'=>'人事动态', 'action'=>url('dynamic/index'),'icon'=>'fa-angle-right'],
+						'setting'	=> ['name'=>'基础设置', 'action'=>url('setting/home'),'icon'=>'fa-angle-right'],
 													],
 		],
 			'department'		=> ['name'=>'组织管理', 'action'=>url('department/manage'),'icon'=>'fa-th', 'subflag'=>false,

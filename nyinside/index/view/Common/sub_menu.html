@@ -1,5 +1,8 @@
-<div class="page-title" style="border-bottom:1px solid #eee">
+<div class="page-title" style="border-top:1px solid #eee">
   <div>
-    <a class="btn btn-primary icon-btn mr-10" href="###" target="_blank"><i class="fa fa-file"></i>导航一</a>
+{volist name="$base_info.sub_menu" id="item"}
+    <a class="btn btn-primary icon-btn mr-10" href="{:url($item.action);}" target="_blank"><i class="fa fa-file"></i>{$item.name}</a>
+{/volist}
+
   </div>
 </div>

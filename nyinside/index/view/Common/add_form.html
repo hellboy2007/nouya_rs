@@ -1,0 +1,42 @@
+<?php $form = \think\form\Form::form(); ?>
+
+<div class="row">
+    <div class="col-md-12">
+
+          <form action="{:url('add')}">
+          <div class="card">
+          <h3 class="card-title">{$base_info.ctl.name} - 新增</h3>
+
+              {foreach $form_fileds as $row}
+
+                {if condition="(count($row) == 1)"}
+                  {include file="Base:onerow" /}
+                {else /}
+                  {include file="Base:tworow" /}
+                {/if}
+
+              {/foreach}
+
+
+              <div class="clearfix"></div>    
+              <div class="row">
+                <div class="col-md-12" style="text-align:center;">
+                <?php //echo $form->button('取消',['class'=>'btn btn-default','type'=> 'reset']); ?>
+                <?php //echo $form->button('保存',['class'=>'btn btn-primary']); ?>
+                </div>
+              </div>
+          
+          </div>
+          </form>
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+{block name="ftscript"}<script src="__PUBLIC__js/laydate/laydate.js"></script>{/block}
