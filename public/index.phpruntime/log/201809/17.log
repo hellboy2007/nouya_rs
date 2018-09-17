@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+[ 2018-09-17T15:51:43+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.134606s][吞吐率：7.43req/s] [内存消耗：1,302.05kb] [文件加载：32]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2s41pee578kfbm23kd3rhenp14',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File

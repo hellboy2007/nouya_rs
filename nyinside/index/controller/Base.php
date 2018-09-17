@@ -106,6 +106,11 @@ class Base extends controller
     return $this->fetch('Page:main');
   }
 
+  public function add() {
+    $request  = Request::instance();
+    p($request->post());
+  }
+
 
   public function fileds_group(){
   //排 列：平均分组 默认

@@ -5,11 +5,9 @@
                 {foreach $row as $fitem}
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <label class="col-lg-2 control-label" for="inputEmail">{$fitem.name}</label>
+                      <label class="col-lg-2 control-label" for="inputEmail">{$fitem.attr.name}</label>
                         <div class="col-lg-10">
-
-                          <!--input class="form-control" id="inputEmail" type="text" placeholder="{$fitem.name}"-->
-                          <?php echo $form->get_form_item($fitem); ?>
+                          <?php echo $form->get_form_item($fitem, null); ?>
                         </div>
                     </div>
                   </div>

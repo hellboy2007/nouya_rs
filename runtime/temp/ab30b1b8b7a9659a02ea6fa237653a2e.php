@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:17:{s:61:"F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html";i:1535164347;s:63:"F:\site\nouya_rs\nyinside\index\view\Template\fw_workbanch.html";i:1536744583;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1536135632;s:59:"F:\site\nouya_rs\nyinside\index\view\Common\breadcrumb.html";i:1536299769;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1535164543;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\nav_btns.html";i:1536030587;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\search.html";i:1536027116;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_header.html";i:1536029147;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\list_body.html";i:1536029104;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_footer.html";i:1535177426;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\edit_form.html";i:1535177435;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\add_form.html";i:1536744613;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\onerow.html";i:1536203945;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\tworow.html";i:1536737328;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\cmplate.html";i:1535177711;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\footer.html";i:1535167707;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:17:{s:61:"F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html";i:1535164347;s:63:"F:\site\nouya_rs\nyinside\index\view\Template\fw_workbanch.html";i:1536744583;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1536135632;s:59:"F:\site\nouya_rs\nyinside\index\view\Common\breadcrumb.html";i:1536299769;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1535164543;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\nav_btns.html";i:1536030587;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\search.html";i:1536027116;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_header.html";i:1536029147;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\list_body.html";i:1536029104;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_footer.html";i:1535177426;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\edit_form.html";i:1535177435;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\add_form.html";i:1537163805;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\onerow.html";i:1536203945;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\tworow.html";i:1536825227;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\cmplate.html";i:1535177711;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\footer.html";i:1535167707;}*/ ?>
 <!--当前模板默认只改变工作区-->
 <?php $time = time(); ?>
 <!DOCTYPE html>
@@ -654,7 +654,7 @@
 <div class="row">
     <div class="col-md-12">
 
-          <form action="<?php echo url('add'); ?>">
+          <form action="<?php echo url('add'); ?>" method="post" id="form1">
           <div class="card">
           <h3 class="card-title"><?php echo $base_info['ctl']['name']; ?> - 新增</h3>
 
@@ -682,11 +682,9 @@
                 <?php foreach($row as $fitem): ?>
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <label class="col-lg-2 control-label" for="inputEmail"><?php echo $fitem['name']; ?></label>
+                      <label class="col-lg-2 control-label" for="inputEmail"><?php echo $fitem['attr']['name']; ?></label>
                         <div class="col-lg-10">
-
-                          <!--input class="form-control" id="inputEmail" type="text" placeholder="<?php echo $fitem['name']; ?>"-->
-                          <?php echo $form->get_form_item($fitem); ?>
+                          <?php echo $form->get_form_item($fitem, null); ?>
                         </div>
                     </div>
                   </div>
@@ -704,7 +702,8 @@
               <div class="clearfix"></div>    
               <div class="row">
                 <div class="col-md-12" style="text-align:center;">
-                <?php //echo $form->button('取消',['class'=>'btn btn-default','type'=> 'reset']); //echo $form->button('保存',['class'=>'btn btn-primary']); ?>
+                <?php echo $form->form_button('btn1', '取消',['class'=>'btn btn-default','type'=> 'reset']); ?>
+                <?php echo $form->form_button('btn2', '保存',['class'=>'btn btn-primary']); ?>
                 </div>
               </div>
           

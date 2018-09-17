@@ -13,8 +13,8 @@
 
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../nyinside/');
-// echo __FILE__;
 define("SITE_PATH",'/');
+define("ROOT_PATH",dirname(__FILE__));
 
 // define('SITE_URL', 'http://127.0.0.1/tp5');
 // 加载框架引导文件
