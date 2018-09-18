@@ -1,0 +1,2222 @@
+---------------------------------------------------------------
+[ 2018-09-18T09:17:00+08:00 ] 127.0.0.1 GET /index/index/logout.html
+[ info ] www.nyhr.com/index/index/logout.html [运行时间：0.143046s][吞吐率：6.99req/s] [内存消耗：1,350.73kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->logout[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:17:00+08:00 ] 127.0.0.1 GET /index/index/login_form/login_id/2.html
+[ info ] www.nyhr.com/index/index/login_form/login_id/2.html [运行时间：0.097597s][吞吐率：10.25req/s] [内存消耗：1,526.86kb] [文件加载：36]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'login_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->login_form[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:17:04+08:00 ] 127.0.0.1 GET /index/index/logindo.html?mail=&password=
+[ info ] www.nyhr.com/index/index/logindo.html?mail=&password= [运行时间：0.072245s][吞吐率：13.84req/s] [内存消耗：1,402.68kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logindo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'mail' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->logindo[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:17:04+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.nyhr.com/index/index/index.html [运行时间：0.076847s][吞吐率：13.01req/s] [内存消耗：1,414.53kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:17:04+08:00 ] 127.0.0.1 GET /index/center/index.html
+[ info ] www.nyhr.com/index/center/index.html [运行时间：0.089575s][吞吐率：11.16req/s] [内存消耗：1,564.50kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Center->index[ F:\site\nouya_rs\nyinside\index\controller\Center.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\first.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:17:07+08:00 ] 127.0.0.1 GET /index/roster/lists.html
+[ info ] www.nyhr.com/index/roster/lists.html [运行时间：0.119182s][吞吐率：8.39req/s] [内存消耗：1,600.73kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Roster->lists[ F:\site\nouya_rs\nyinside\index\controller\Roster.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:17:14+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.083817s][吞吐率：11.93req/s] [内存消耗：1,496.27kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T11:02:14+08:00 ] 127.0.0.1 GET /index/index/logout.html
+[ info ] www.nyhr.com/index/index/logout.html [运行时间：0.115648s][吞吐率：8.65req/s] [内存消耗：1,351.20kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->logout[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T11:02:14+08:00 ] 127.0.0.1 GET /index/index/login_form/login_id/2.html
+[ info ] www.nyhr.com/index/index/login_form/login_id/2.html [运行时间：0.083767s][吞吐率：11.94req/s] [内存消耗：1,383.99kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+  'login_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->login_form[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T11:02:22+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.172517s][吞吐率：5.80req/s] [内存消耗：1,578.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025240s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no`' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:15:46+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.115742s][吞吐率：8.64req/s] [内存消耗：1,578.65kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005234s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,no v' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:15:52+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.115083s][吞吐率：8.69req/s] [内存消耗：1,578.68kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006225s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,no v' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:16:30+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.140953s][吞吐率：7.09req/s] [内存消耗：1,578.52kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006919s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,no v' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:16:32+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.104913s][吞吐率：9.53req/s] [内存消耗：1,578.52kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004598s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,no v' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:17:03+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.159595s][吞吐率：6.27req/s] [内存消耗：1,578.56kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007591s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,no v' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:21:06+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.117478s][吞吐率：8.51req/s] [内存消耗：1,578.56kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005974s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (id int(10) NOT NULL AUTO_INCREMENT,no var' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:21:10+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.108292s][吞吐率：9.23req/s] [内存消耗：1,578.56kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006086s ] mysql:host=127.0.0.1;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (id int(10) NOT NULL AUTO_INCREMENT,no var' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:34:25+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.101715s][吞吐率：9.83req/s] [内存消耗：1,524.63kb] [文件加载：38]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2018-09-18T11:34:26+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.100122s][吞吐率：9.99req/s] [内存消耗：1,524.66kb] [文件加载：38]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2018-09-18T11:34:49+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.112603s][吞吐率：8.88req/s] [内存消耗：1,578.56kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006592s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (id int(10) NOT NULL AUTO_INCREMENT,no var' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:40:42+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.309634s][吞吐率：3.23req/s] [内存消耗：1,578.70kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008440s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no`' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:41:38+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.073006s][吞吐率：13.70req/s] [内存消耗：1,275.44kb] [文件加载：32]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T11:41:53+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.119009s][吞吐率：8.40req/s] [内存消耗：1,311.45kb] [文件加载：33]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T11:42:27+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.125213s][吞吐率：7.99req/s] [内存消耗：1,578.45kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006860s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no`' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T11:46:51+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.080853s][吞吐率：12.37req/s] [内存消耗：1,311.45kb] [文件加载：33]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T11:47:35+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.094295s][吞吐率：10.61req/s] [内存消耗：1,578.45kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006821s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no`' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T13:32:06+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.196044s][吞吐率：5.10req/s] [内存消耗：1,578.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014535s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no` varchar(100) ' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T13:56:50+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.158587s][吞吐率：6.31req/s] [内存消耗：1,579.02kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005190s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no` varchar(100) ' at line 2[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T13:57:04+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.166113s][吞吐率：6.02req/s] [内存消耗：1,529.45kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005645s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.012419s ]
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.007313s ]
+---------------------------------------------------------------
+[ 2018-09-18T13:57:15+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.189174s][吞吐率：5.29req/s] [内存消耗：1,579.29kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007397s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no` varchar(100) ' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:04:11+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.160987s][吞吐率：6.21req/s] [内存消耗：1,578.22kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006805s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL AUTO_INCREMENTPRIMARY KEY (`id`))' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:04:30+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.108883s][吞吐率：9.18req/s] [内存消耗：1,578.21kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005241s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,PRIMARY KEY (`id`)' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:04:57+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.258024s][吞吐率：3.88req/s] [内存消耗：1,578.05kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008527s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL) ENGINE=MyISAM AUTO_INCREMENT=0 D' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:07:42+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.097201s][吞吐率：10.29req/s] [内存消耗：1,245.79kb] [文件加载：31]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T14:17:24+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.140055s][吞吐率：7.14req/s] [内存消耗：1,579.23kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006485s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL,`no` varchar(100) DEFAULT NULL CO' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:17:36+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.175981s][吞吐率：5.68req/s] [内存消耗：1,529.41kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007128s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests` [ RunTime:0.011912s ]
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests` [ RunTime:0.007039s ]
+---------------------------------------------------------------
+[ 2018-09-18T14:18:47+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.135851s][吞吐率：7.36req/s] [内存消耗：1,578.05kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004815s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`id` int(10) NOT NULL) ENGINE=MyISAM AUTO_INCREMENT=0 D' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:19:16+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.121358s][吞吐率：8.24req/s] [内存消耗：1,579.04kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005551s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (
+  `id` int(10) NOT NULL,
+  `no` varchar(100) DEFAULT' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:19:17+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.196911s][吞吐率：5.08req/s] [内存消耗：1,579.04kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005072s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (
+  `id` int(10) NOT NULL,
+  `no` varchar(100) DEFAULT' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:23:45+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.141155s][吞吐率：7.08req/s] [内存消耗：1,578.18kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006815s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (
+  `created` datetime NOT NULL COMMENT '记录创建' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:24:13+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.188873s][吞吐率：5.29req/s] [内存消耗：1,578.16kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013443s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE `suggests` (`created` datetime NOT NULL COMMENT '记录创建时间' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:25:04+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.110443s][吞吐率：9.05req/s] [内存消耗：1,583.27kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004746s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] CREATE TABLE `suggests` (`created` datetime NOT NULL COMMENT '记录创建时间',`updated` datetime NOT NULL COMMENT '记录更新时间') ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='意见记录表'; [ RunTime:0.007292s ]
+[ error ] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'suggests' already exists[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:25:31+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.128193s][吞吐率：7.80req/s] [内存消耗：1,532.02kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005498s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.009501s ]
+[ sql ] [ SQL ] CREATE TABLE `suggests` (`created` datetime NOT NULL COMMENT '记录创建时间',`updated` datetime NOT NULL COMMENT '记录更新时间') ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='意见记录表'; [ RunTime:0.012126s ]
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.008493s ]
+[ sql ] [ SQL ] CREATE TABLE `suggests` (`created` datetime NOT NULL COMMENT '记录创建时间',`updated` datetime NOT NULL COMMENT '记录更新时间') ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='意见记录表'; [ RunTime:0.008301s ]
+---------------------------------------------------------------
+[ 2018-09-18T14:29:34+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.089870s][吞吐率：11.13req/s] [内存消耗：1,079.31kb] [文件加载：29]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '；' (T_STRING)[F:\site\nouya_rs\nyinside\index\controller\Tables.php:36]
+---------------------------------------------------------------
+[ 2018-09-18T14:29:58+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.158797s][吞吐率：6.30req/s] [内存消耗：1,579.01kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005137s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.010382s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE `suggests` ADD UNIQUE KEY no (no)' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:30:29+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.110860s][吞吐率：9.02req/s] [内存消耗：1,579.09kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003452s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.004630s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE `suggests` ADD UNIQUE KEY no (no)' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:30:59+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.112371s][吞吐率：8.90req/s] [内存消耗：1,276.57kb] [文件加载：32]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T14:31:15+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.163979s][吞吐率：6.10req/s] [内存消耗：1,245.02kb] [文件加载：31]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T14:31:39+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.125118s][吞吐率：7.99req/s] [内存消耗：1,245.09kb] [文件加载：31]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T14:32:04+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.071660s][吞吐率：13.95req/s] [内存消耗：1,462.80kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003061s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.004755s ]
+---------------------------------------------------------------
+[ 2018-09-18T14:32:20+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.097125s][吞吐率：10.30req/s] [内存消耗：1,529.63kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004434s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.003495s ]
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `gifts`; [ RunTime:0.006729s ]
+---------------------------------------------------------------
+[ 2018-09-18T14:32:42+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.178259s][吞吐率：5.61req/s] [内存消耗：1,578.53kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008162s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE `suggests` ADD UNIQUE KEY no (no)' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:34:11+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.137050s][吞吐率：7.30req/s] [内存消耗：1,578.53kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004770s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE `suggests` ADD UNIQUE KEY no (no)' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:37:28+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.102421s][吞吐率：9.76req/s] [内存消耗：1,578.59kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003962s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATETABLE `tp_user` (
+
+`id`int(11) NOT NULL,
+
+`name`varchar(45) DEFAULT NU' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:54:01+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.187886s][吞吐率：5.32req/s] [内存消耗：1,579.23kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012796s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE `suggests` ADD UNIQUE KEY no (no)' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:54:40+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.144753s][吞吐率：6.91req/s] [内存消耗：1,578.26kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004712s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COMMENT='意见记录表';' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:55:02+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.146168s][吞吐率：6.84req/s] [内存消耗：1,578.13kb] [文件加载：42]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006497s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE `suggests` ADD UNIQUE KEY no (no)' at line 1[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-18T14:55:15+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.159423s][吞吐率：6.27req/s] [内存消耗：1,463.56kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007277s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] CREATE TABLE `suggests` (`id` int(10) NOT NULL) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COMMENT='意见记录表'; [ RunTime:0.012864s ]
+---------------------------------------------------------------
+[ 2018-09-18T14:55:43+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.165784s][吞吐率：6.03req/s] [内存消耗：1,462.69kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007050s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.012293s ]
+---------------------------------------------------------------
+[ 2018-09-18T14:57:35+08:00 ] 127.0.0.1 GET /index/tables/index.html
+[ info ] www.nyhr.com/index/tables/index.html [运行时间：0.227534s][吞吐率：4.39req/s] [内存消耗：1,536.30kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tables',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Tables->index[ F:\site\nouya_rs\nyinside\index\controller\Tables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010775s ] mysql:host=127.0.0.1;port=3306;dbname=nyrs;charset=utf8
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `suggests`; [ RunTime:0.007019s ]
+[ sql ] [ SQL ] CREATE TABLE `suggests` (`id` int(10) NOT NULL AUTO_INCREMENT,`no` varchar(100) DEFAULT NULL COMMENT '编号',`title` varchar(100) DEFAULT NULL COMMENT '标题',`publisher_no` varchar(100) DEFAULT NULL COMMENT '发布人no号',`cate` tinyint(4) NOT NULL COMMENT '意见类型id',`attac_name` varchar(100) DEFAULT NULL COMMENT '图像名称',`attac_path` varchar(255) DEFAULT NULL COMMENT '图像路径',`remark` text(255) DEFAULT NULL COMMENT '建议内容',`score` text(100) DEFAULT NULL COMMENT '积分',`created` datetime NOT NULL COMMENT '记录创建时间',`updated` datetime NOT NULL COMMENT '记录更新时间',PRIMARY KEY (`id`)) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COMMENT='意见记录表'; [ RunTime:0.008194s ]
+[ sql ] [ SQL ] ALTER TABLE `suggests` ADD UNIQUE KEY no (no); [ RunTime:0.031255s ]
+[ sql ] [ SQL ] DROP TABLE IF EXISTS `gifts`; [ RunTime:0.011810s ]
+[ sql ] [ SQL ] CREATE TABLE `gifts` (`id` int(10) NOT NULL AUTO_INCREMENT,`no` varchar(100) DEFAULT NULL COMMENT '礼品编号',`title` varchar(100) DEFAULT NULL COMMENT '礼品名称',`remark` text(255) DEFAULT NULL COMMENT '礼品描述',`score` varchar(100) DEFAULT NULL COMMENT '要求积分',`store_status` tinyint(4) NOT NULL DEFAULT 1 COMMENT '礼品状态1.上架,2下架',`created` date NOT NULL COMMENT '记录创建时间',`updated` date NOT NULL COMMENT '记录更新时间',PRIMARY KEY (`id`)) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COMMENT='礼品表'; [ RunTime:0.021702s ]
+---------------------------------------------------------------
+[ 2018-09-18T15:09:55+08:00 ] 127.0.0.1 POST /index/roster/add.html
+[ info ] www.nyhr.com/index/roster/add.html [运行时间：0.113938s][吞吐率：8.78req/s] [内存消耗：1,386.34kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '159',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nyhr.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/add_form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+  'user' => '兰纯钰',
+  'phone' => '',
+  'mail' => 'crans@foxmail.com',
+  'papers' => '1',
+  'pp_no' => '',
+  'department' => '',
+  'posi' => '',
+  'nature' => '1',
+  'indated' => '',
+  'pos_status' => '1',
+  'probation' => '0',
+  'cont_company' => '',
+  'no' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T15:10:00+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.108210s][吞吐率：9.24req/s] [内存消耗：1,496.27kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:12:17+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.122983s][吞吐率：8.13req/s] [内存消耗：1,496.53kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:12:41+08:00 ] 127.0.0.1 GET /index/roster/lists.html.html
+[ info ] www.nyhr.com/index/roster/lists.html.html [运行时间：0.130756s][吞吐率：7.65req/s] [内存消耗：1,390.01kb] [文件加载：36]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'lists.html',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/add_form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:13:49+08:00 ] 127.0.0.1 GET /index/roster/Index/index
+[ info ] www.nyhr.com/index/roster/Index/index [运行时间：0.095382s][吞吐率：10.48req/s] [内存消耗：1,389.91kb] [文件加载：36]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/add_form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:13:50+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.141747s][吞吐率：7.05req/s] [内存消耗：1,496.27kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:32:30+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.118750s][吞吐率：8.42req/s] [内存消耗：1,496.53kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:34:59+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.123992s][吞吐率：8.07req/s] [内存消耗：1,496.38kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/add_form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=nonuevricuov9kl3s4j2ght8l4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File

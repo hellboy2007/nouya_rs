@@ -33,14 +33,15 @@ class Tables extends controller
             if(!empty($table['ALTER'])){
                 $ALTER = "ALTER TABLE `{$PREFIX}{$table['name']}` {$table['ALTER']}";
             }
-            $table_str = "DROP TABLE IF EXISTS `{$PREFIX}{$table['name']}`;CREATE TABLE IF NOT EXISTS `{$PREFIX}{$table['name']}` (" .
+            $drap = "DROP TABLE IF EXISTS `{$PREFIX}{$table['name']}`;";
+            $table_str = "CREATE TABLE `{$PREFIX}{$table['name']}` (" .
                 $files_str .
-                ") ENGINE={$table['ENGINE']} AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COMMENT='{$table['COMMENT']}';{$ALTER}";
+                ") ENGINE={$table['ENGINE']} AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COMMENT='{$table['COMMENT']}';";
 
-            $this->create_table($table_str);
+            $this->create_table($drap, $table_str, $ALTER);
         }
 
-        p($data);exit;
+        //p($data);exit;
 
     }
 
@@ -86,15 +87,15 @@ class Tables extends controller
         return $filed_strs . 'PRIMARY KEY (`id`)';
      }
 
-    public function create_table($sql){
-    	//echo($sql);
+    public function create_table($drap, $sql, $ALTER){
+
+        Db::execute($drap);
 
         Db::execute($sql);
-        //清空产品表的表行占用
-        // $add_sql = 'update `pito_products` set pstocks=0';
-        // $Model->execute($add_sql);
 
-        // echo 'created tables complated';
+        if(!empty($ALTER))Db::execute($ALTER);
+
+        echo "created tables ok~";
     }
 
 }

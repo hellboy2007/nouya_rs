@@ -19,7 +19,7 @@ return [
 		'AUTO_INCREMENT'=>0,
 		'DEFAULT CHARSET'=>'utf8',
 		'COMMENT'=>'意见记录表',
-		'ALTER'=>'ADD UNIQUE KEY `no` (`no`);',
+		'ALTER'=>'ADD UNIQUE KEY no (no);',
 	],
 
 	//礼品表
