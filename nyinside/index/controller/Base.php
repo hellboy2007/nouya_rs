@@ -10,6 +10,12 @@ namespace app\index\controller;
 use think\Controller;
 use think\Session;
 use think\Request;
+use think\Db;
+
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+
 
 class Base extends controller
 {
@@ -62,19 +68,20 @@ class Base extends controller
     ];
 
   
-    $pagegroup  = $this->workframe();
-    $page_name  = $this->set_page_name('list');
-    $pg_wb      = empty($pagegroup[$page_name])? null:$pagegroup[$page_name];
 
-    $this->assign('pagegroup',   $pg_wb);
-    $this->assign('page_name',   $page_name);
+    $this->set_page_name();
+
     $this->assign('base_info',   $base_info);
     $this->assign('base_user',   $base_user);
     $this->assign('base_reqest', $base_reqest);
   }
 
   public function set_page_name( $page_name = null ){
-    return $page_name;
+    $pagegroup  = $this->workframe();
+    $pg_wb      = empty($pagegroup[$page_name])? null : $pagegroup[$page_name];
+
+    $this->assign('pagegroup',   $pg_wb);
+    $this->assign('page_name',   $page_name);
   }
 
 
@@ -86,29 +93,62 @@ class Base extends controller
         'add'     => ['add_form'],
         'detail'  => ['detail'],
         'cmplate' => ['cmplate'],
+        'upfile'  => ['upfile'],
       ];
   }
 
   //添加数据表单
   public function add_form() {
 
-    $pagegroup  = $this->workframe();
-    $page_name  = $this->set_page_name('add');
-    $pg_wb      = empty($pagegroup[$page_name])? null:$pagegroup[$page_name];
+
+
+    $this->set_page_name('add');
 
 
     //fileds_group
     $fileds  = $this->fileds_group();
 
-    $this->assign('pagegroup',   $pg_wb);
-    $this->assign('page_name',   $page_name);
+
     $this->assign('form_fileds',   $fileds);
     return $this->fetch('Page:main');
   }
 
   public function add() {
     $request  = Request::instance();
-    p($request->post());
+    $data = $request->post();
+
+    //取得字段
+    $fileds   = $this->from_fileds();
+
+    //进行筛选
+    foreach($fileds as $fd) { 
+      //文件上传类型的特殊处理
+      //
+      //
+      //
+      //一般文本框处理
+      $fileds_arr[$fd['key']] = $data[$fd['key']];
+    }
+
+
+    $bf = $this->baseinfo();
+    Db::name($bf['table'])->insert($fileds_arr);
+    $Id =  Db::name($bf['table'])->getLastInsID();
+    $this->redirect('cmplate', ['id' => $Id]);
+  }
+
+  public function cmplate() {
+
+    $this->set_page_name('cmplate');
+    return $this->fetch('Page:main');
+
+
+  }
+
+  public function baseinfo(){
+    return [
+          'table'=> 'roster',
+    ];
   }
 
 

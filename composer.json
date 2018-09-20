@@ -1,0 +1,7 @@
+{
+    "require": {
+        "topthink/think-testing": "^2.0",
+        "phpoffice/phpexcel": "^1.8",
+        "phpoffice/phpspreadsheet": "1.0.0beta"
+    }
+}

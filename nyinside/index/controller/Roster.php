@@ -9,11 +9,10 @@ class Roster extends Base
     return $this->fetch('Page:main');
   }
 
-  public function set_page_name( $page_name = null ){
-    return $page_name;
-  }
+
 
   public function from_fileds(){
+
   	return [
   		['key'=>'user', 'check'=>true, 'flag'=>'text', 'attr'=>['name'=>'姓名'],],
   		['key'=>'gender', 'flag'=>'radios', 'list'=>$this->get_gender(), 'attr'=>['name'=>'性别'],],

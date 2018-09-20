@@ -1,0 +1,2231 @@
+---------------------------------------------------------------
+[ 2018-09-19T09:52:45+08:00 ] 127.0.0.1 GET /index/
+[ info ] www.nyhr.com/index/ [运行时间：0.091647s][吞吐率：10.91req/s] [内存消耗：1,402.25kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6680044544',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T09:52:45+08:00 ] 127.0.0.1 GET /index/index/login_form/login_id/1537321965.html
+[ info ] www.nyhr.com/index/index/login_form/login_id/1537321965.html [运行时间：0.056851s][吞吐率：17.59req/s] [内存消耗：1,384.09kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6680044544; PHPSESSID=bttdohurhd8pdjnqvmu68eoro1',
+)
+[ info ] [ PARAM ] array (
+  'login_id' => '1537321965',
+)
+[ info ] [ RUN ] app\index\controller\Index->login_form[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T09:52:47+08:00 ] 127.0.0.1 GET /index/index/logindo.html?mail=&password=
+[ info ] www.nyhr.com/index/index/logindo.html?mail=&password= [运行时间：0.087007s][吞吐率：11.49req/s] [内存消耗：1,403.01kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logindo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/1537321965.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6680044544; PHPSESSID=bttdohurhd8pdjnqvmu68eoro1',
+)
+[ info ] [ PARAM ] array (
+  'mail' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->logindo[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T09:52:47+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.nyhr.com/index/index/index.html [运行时间：0.062177s][吞吐率：16.08req/s] [内存消耗：1,414.50kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/1537321965.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6680044544; PHPSESSID=bttdohurhd8pdjnqvmu68eoro1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T09:52:47+08:00 ] 127.0.0.1 GET /index/center/index.html
+[ info ] www.nyhr.com/index/center/index.html [运行时间：0.063995s][吞吐率：15.63req/s] [内存消耗：1,403.87kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/1537321965.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6680044544; PHPSESSID=bttdohurhd8pdjnqvmu68eoro1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Center->index[ F:\site\nouya_rs\nyinside\index\controller\Center.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\first.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T09:52:51+08:00 ] 127.0.0.1 GET /index/roster/lists.html
+[ info ] www.nyhr.com/index/roster/lists.html [运行时间：0.114026s][吞吐率：8.77req/s] [内存消耗：1,433.13kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6680044544; PHPSESSID=bttdohurhd8pdjnqvmu68eoro1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Roster->lists[ F:\site\nouya_rs\nyinside\index\controller\Roster.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T09:53:03+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.078211s][吞吐率：12.79req/s] [内存消耗：1,496.36kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6680044544; PHPSESSID=bttdohurhd8pdjnqvmu68eoro1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:25:18+08:00 ] 127.0.0.1 GET /index/index/logout.html
+[ info ] www.nyhr.com/index/index/logout.html [运行时间：0.226299s][吞吐率：4.42req/s] [内存消耗：1,350.74kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->logout[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:25:18+08:00 ] 127.0.0.1 GET /index/index/login_form/login_id/2.html
+[ info ] www.nyhr.com/index/index/login_form/login_id/2.html [运行时间：0.105953s][吞吐率：9.44req/s] [内存消耗：1,383.66kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'login_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->login_form[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:25:21+08:00 ] 127.0.0.1 GET /index/index/logindo.html?mail=&password=
+[ info ] www.nyhr.com/index/index/logindo.html?mail=&password= [运行时间：0.107487s][吞吐率：9.30req/s] [内存消耗：1,402.74kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'logindo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'mail' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->logindo[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:25:21+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] www.nyhr.com/index/index/index.html [运行时间：0.120288s][吞吐率：8.31req/s] [内存消耗：1,414.53kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\site\nouya_rs\nyinside\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:25:22+08:00 ] 127.0.0.1 GET /index/center/index.html
+[ info ] www.nyhr.com/index/center/index.html [运行时间：0.101472s][吞吐率：9.85req/s] [内存消耗：1,403.81kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/index/login_form/login_id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Center->index[ F:\site\nouya_rs\nyinside\index\controller\Center.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\first.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:25:25+08:00 ] 127.0.0.1 GET /index/roster/lists.html
+[ info ] www.nyhr.com/index/roster/lists.html [运行时间：0.099852s][吞吐率：10.01req/s] [内存消耗：1,433.08kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Roster->lists[ F:\site\nouya_rs\nyinside\index\controller\Roster.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:25:28+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.088173s][吞吐率：11.34req/s] [内存消耗：1,496.27kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T11:28:43+08:00 ] 127.0.0.1 POST /index/roster/add.html
+[ info ] www.nyhr.com/index/roster/add.html [运行时间：0.112822s][吞吐率：8.86req/s] [内存消耗：1,386.89kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '288',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nyhr.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/add_form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'user' => '兰纯钰',
+  'gender' => '1',
+  'phone' => '15285087685',
+  'mail' => 'crans@foxmail.com',
+  'papers' => '1',
+  'pp_no' => '52252419800815007x',
+  'department' => '营管部',
+  'posi' => '软件工程师',
+  'nature' => '1',
+  'indated' => '2018-09-19',
+  'pos_status' => '1',
+  'probation' => '0',
+  'cont_company' => '001',
+  'no' => 'GH0015',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T13:18:25+08:00 ] 127.0.0.1 POST /index/roster/add.html
+[ info ] www.nyhr.com/index/roster/add.html [运行时间：0.134038s][吞吐率：7.46req/s] [内存消耗：1,356.46kb] [文件加载：33]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '288',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'origin' => 'http://www.nyhr.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/add_form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'user' => '兰纯钰',
+  'gender' => '1',
+  'phone' => '15285087685',
+  'mail' => 'crans@foxmail.com',
+  'papers' => '1',
+  'pp_no' => '52252419800815007x',
+  'department' => '营管部',
+  'posi' => '软件工程师',
+  'nature' => '1',
+  'indated' => '2018-09-19',
+  'pos_status' => '1',
+  'probation' => '0',
+  'cont_company' => '001',
+  'no' => 'GH0015',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T15:42:15+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.175179s][吞吐率：5.71req/s] [内存消耗：1,103.52kb] [文件加载：30]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'use' (T_USE)[F:\site\nouya_rs\nyinside\index\controller\Base.php:97]
+---------------------------------------------------------------
+[ 2018-09-19T15:42:34+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.171900s][吞吐率：5.82req/s] [内存消耗：1,114.03kb] [文件加载：31]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]main(): Failed opening required 'vendor/autoload.php' (include_path='E:\xampp\php\PEAR')[F:\site\nouya_rs\nyinside\index\controller\Base.php:15]
+---------------------------------------------------------------
+[ 2018-09-19T15:50:03+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.156147s][吞吐率：6.40req/s] [内存消耗：1,497.25kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:15:44+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.304277s][吞吐率：3.29req/s] [内存消耗：1,301.10kb] [文件加载：32]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:19:33+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.275210s][吞吐率：3.63req/s] [内存消耗：1,411.70kb] [文件加载：38]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: base_info[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:71]
+---------------------------------------------------------------
+[ 2018-09-19T16:20:52+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.201089s][吞吐率：4.97req/s] [内存消耗：1,071.23kb] [文件加载：30]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\controller' not found[F:\site\nouya_rs\nyinside\index\controller\Upfile.php:11]
+---------------------------------------------------------------
+[ 2018-09-19T16:21:29+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.222371s][吞吐率：4.50req/s] [内存消耗：1,421.13kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:22:03+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.125870s][吞吐率：7.94req/s] [内存消耗：1,421.13kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:24:41+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.237077s][吞吐率：4.22req/s] [内存消耗：1,414.27kb] [文件加载：36]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:[F:\site\fw\thinkphp_5.0.20\thinkphp\library\think\Template.php:1074]
+---------------------------------------------------------------
+[ 2018-09-19T16:25:12+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.328236s][吞吐率：3.05req/s] [内存消耗：1,587.72kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:26:54+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.272217s][吞吐率：3.67req/s] [内存消耗：1,587.73kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:33:08+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.186920s][吞吐率：5.35req/s] [内存消耗：1,556.29kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:36:47+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.164726s][吞吐率：6.07req/s] [内存消耗：1,587.70kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:37:36+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.212634s][吞吐率：4.70req/s] [内存消耗：1,587.84kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:37:45+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.433560s][吞吐率：2.31req/s] [内存消耗：1,587.82kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T16:59:33+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.231105s][吞吐率：4.33req/s] [内存消耗：1,447.48kb] [文件加载：39]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'base_info',
+  1 => 'base_user',
+  2 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: pagegroup[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:161]
+---------------------------------------------------------------
+[ 2018-09-19T17:00:53+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.215852s][吞吐率：4.63req/s] [内存消耗：1,447.48kb] [文件加载：39]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'base_info',
+  1 => 'base_user',
+  2 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: pagegroup[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:161]
+---------------------------------------------------------------
+[ 2018-09-19T17:00:55+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.319944s][吞吐率：3.13req/s] [内存消耗：1,495.49kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:01:14+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.270461s][吞吐率：3.70req/s] [内存消耗：1,657.89kb] [文件加载：39]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:02:22+08:00 ] 127.0.0.1 GET /index/roster/add_form.html
+[ info ] www.nyhr.com/index/roster/add_form.html [运行时间：0.160873s][吞吐率：6.22req/s] [内存消耗：1,495.48kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'roster',
+    2 => 'add_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/roster/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Base->add_form[ F:\site\nouya_rs\nyinside\index\controller\Base.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'form_fileds',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:02:24+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.258034s][吞吐率：3.88req/s] [内存消耗：1,402.97kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:03:14+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.268442s][吞吐率：3.73req/s] [内存消耗：1,555.15kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:04:09+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.297750s][吞吐率：3.36req/s] [内存消耗：1,555.16kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:05:19+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.280896s][吞吐率：3.56req/s] [内存消耗：1,667.52kb] [文件加载：41]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function U()[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:730]
+---------------------------------------------------------------
+[ 2018-09-19T17:05:33+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.315438s][吞吐率：3.17req/s] [内存消耗：1,620.08kb] [文件加载：41]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: zh[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:748]
+---------------------------------------------------------------
+[ 2018-09-19T17:08:28+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.171051s][吞吐率：5.85req/s] [内存消耗：1,448.99kb] [文件加载：39]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'tbs',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: zh[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:748]
+---------------------------------------------------------------
+[ 2018-09-19T17:08:49+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.309474s][吞吐率：3.23req/s] [内存消耗：1,449.97kb] [文件加载：39]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'saves',
+  6 => 'tbs',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: zh[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:748]
+---------------------------------------------------------------
+[ 2018-09-19T17:09:22+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.189335s][吞吐率：5.28req/s] [内存消耗：1,308.59kb] [文件加载：32]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:09:28+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.188110s][吞吐率：5.32req/s] [内存消耗：1,449.97kb] [文件加载：39]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'saves',
+  6 => 'tbs',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: zh[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:748]
+---------------------------------------------------------------
+[ 2018-09-19T17:09:44+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.175681s][吞吐率：5.69req/s] [内存消耗：1,308.31kb] [文件加载：32]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:12:36+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.309691s][吞吐率：3.23req/s] [内存消耗：1,622.15kb] [文件加载：41]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'saves',
+  6 => 'tbs',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: 系统设置[F:\site\nouya_rs\publicruntime\temp\ab30b1b8b7a9659a02ea6fa237653a2e.php:753]
+---------------------------------------------------------------
+[ 2018-09-19T17:13:23+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.240391s][吞吐率：4.16req/s] [内存消耗：1,558.04kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+  5 => 'saves',
+  6 => 'tbs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:23:49+08:00 ] 127.0.0.1 POST /index/upfile/upload.html
+[ info ] www.nyhr.com/index/upfile/upload.html [运行时间：0.112707s][吞吐率：8.87req/s] [内存消耗：1,407.72kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upfile',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13065',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nyhr.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVpGHWRpQYEYPBuYs',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/Upfile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'tbname' => 'tablename',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->upload[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:27:25+08:00 ] 127.0.0.1 POST /index/upfile/upload.html
+[ info ] www.nyhr.com/index/upfile/upload.html [运行时间：0.158863s][吞吐率：6.29req/s] [内存消耗：1,410.00kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upfile',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13065',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'origin' => 'http://www.nyhr.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVpGHWRpQYEYPBuYs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/Upfile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'tbname' => 'tablename',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->upload[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:28:51+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.212932s][吞吐率：4.70req/s] [内存消耗：1,558.39kb] [文件加载：37]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:29:48+08:00 ] 127.0.0.1 POST /index/upfile/upload.html
+[ info ] www.nyhr.com/index/upfile/upload.html [运行时间：0.129027s][吞吐率：7.75req/s] [内存消耗：1,410.13kb] [文件加载：34]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upfile',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13065',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nyhr.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAgICLZBiRcBfDm1w',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/Upfile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'tbname' => 'tablename',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->upload[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:39:43+08:00 ] 127.0.0.1 POST /index/upfile/upload.html
+[ info ] www.nyhr.com/index/upfile/upload.html [运行时间：0.166692s][吞吐率：6.00req/s] [内存消耗：1,463.57kb] [文件加载：38]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upfile',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13065',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'origin' => 'http://www.nyhr.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAgICLZBiRcBfDm1w',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/Upfile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'tbname' => 'tablename',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->upload[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot access protected property think\File::$filename[F:\site\nouya_rs\nyinside\index\controller\Upfile.php:46]
+---------------------------------------------------------------
+[ 2018-09-19T17:39:45+08:00 ] 127.0.0.1 GET /index/Upfile/index.html
+[ info ] www.nyhr.com/index/Upfile/index.html [运行时间：0.151626s][吞吐率：6.60req/s] [内存消耗：1,409.19kb] [文件加载：35]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Upfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->index[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ VIEW ] F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html [ array (
+  0 => 'pagegroup',
+  1 => 'page_name',
+  2 => 'base_info',
+  3 => 'base_user',
+  4 => 'base_reqest',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T17:39:48+08:00 ] 127.0.0.1 POST /index/upfile/upload.html
+[ info ] www.nyhr.com/index/upfile/upload.html [运行时间：0.159710s][吞吐率：6.26req/s] [内存消耗：1,463.56kb] [文件加载：38]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upfile',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13065',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.nyhr.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGHZyqhbn31DA2uz7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/Upfile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'tbname' => 'tablename',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->upload[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot access protected property think\File::$filename[F:\site\nouya_rs\nyinside\index\controller\Upfile.php:46]
+---------------------------------------------------------------
+[ 2018-09-19T17:40:39+08:00 ] 127.0.0.1 POST /index/upfile/upload.html
+[ info ] www.nyhr.com/index/upfile/upload.html [运行时间：0.185365s][吞吐率：5.39req/s] [内存消耗：1,457.96kb] [文件加载：38]
+[ info ] [ LANG ] F:\site\fw\thinkphp_5.0.20\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upfile',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.nyhr.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13065',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'origin' => 'http://www.nyhr.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGHZyqhbn31DA2uz7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.nyhr.com/index/Upfile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=60614kgg2j8fqaf2gd2e7r4cm3',
+)
+[ info ] [ PARAM ] array (
+  'tbname' => 'tablename',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Upfile->upload[ F:\site\nouya_rs\nyinside\index\controller\Upfile.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: think\File::$pathName[F:\site\nouya_rs\nyinside\index\controller\Upfile.php:46]

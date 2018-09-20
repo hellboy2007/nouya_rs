@@ -40,7 +40,6 @@
 
 
     {volist name="$pagegroup" id="item"}
-
       {switch name="item"}
 
         {case value="nav_btns"}{include file="Common:nav_btns" /}{/case}
@@ -52,6 +51,7 @@
         {case value="edit_form"}{include file="Common:edit_form" /}{/case}
         {case value="add_form"}{include file="Common:add_form" /}{/case}
         {case value="cmplate"}{include file="Common:cmplate" /}{/case}
+        {case value="upfile"}{include file="Common:upfile" /}{/case}
 
         {default /}未定义模块
       {/switch}

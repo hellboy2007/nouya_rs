@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:17:{s:61:"F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html";i:1535164347;s:63:"F:\site\nouya_rs\nyinside\index\view\Template\fw_workbanch.html";i:1536744583;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1536135632;s:59:"F:\site\nouya_rs\nyinside\index\view\Common\breadcrumb.html";i:1536299769;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1535164543;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\nav_btns.html";i:1536030587;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\search.html";i:1536027116;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_header.html";i:1536029147;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\list_body.html";i:1536029104;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_footer.html";i:1535177426;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\edit_form.html";i:1535177435;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\add_form.html";i:1537163805;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\onerow.html";i:1536203945;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\tworow.html";i:1536825227;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\cmplate.html";i:1535177711;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\footer.html";i:1535167707;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:18:{s:61:"F:\site\nouya_rs\public/../nyinside/index\view\Page\main.html";i:1535164347;s:63:"F:\site\nouya_rs\nyinside\index\view\Template\fw_workbanch.html";i:1537347671;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\header.html";i:1534834417;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\sidebar.html";i:1536135632;s:59:"F:\site\nouya_rs\nyinside\index\view\Common\breadcrumb.html";i:1536299769;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\sub_menu.html";i:1535164543;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\nav_btns.html";i:1536030587;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\search.html";i:1536027116;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_header.html";i:1536029147;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\list_body.html";i:1536029104;s:60:"F:\site\nouya_rs\nyinside\index\view\Common\list_footer.html";i:1535177426;s:58:"F:\site\nouya_rs\nyinside\index\view\Common\edit_form.html";i:1535177435;s:57:"F:\site\nouya_rs\nyinside\index\view\Common\add_form.html";i:1537163805;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\onerow.html";i:1536203945;s:53:"F:\site\nouya_rs\nyinside\index\view\Base\tworow.html";i:1536825227;s:56:"F:\site\nouya_rs\nyinside\index\view\Common\cmplate.html";i:1535177711;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\upfile.html";i:1537421581;s:55:"F:\site\nouya_rs\nyinside\index\view\Common\footer.html";i:1535167707;}*/ ?>
 <!--当前模板默认只改变工作区-->
 <?php $time = time(); ?>
 <!DOCTYPE html>
@@ -721,7 +721,54 @@
 
 
 {block name="ftscript"}<script src="/js/laydate/laydate.js"></script>{/block}
-<?php break; case "cmplate": break; default: ?>未定义模块
+<?php break; case "cmplate": break; case "upfile": ?><div class="row">
+    <div class="col-md-12">
+    <div class="card">
+
+
+
+<form method="post" enctype="multipart/form-data" action="<?php echo Url('upload'); ?>"　class="ui form">
+
+      <table>
+        <tr><td><input type="file" name="excel"  class="ac_file"/></td>
+          <td><input type="submit" value="导入" class="ui button"/></td></tr>
+      </table>
+      <div class="grouped fields">
+        <label>选择导入当月数据表格</label>
+
+
+
+<table>
+
+
+    <tr><td>
+      <div class="field">
+        <div class="ui slider checkbox">
+          <input type="radio" name="tbname" checked="checked" value="tablename">
+          <label>花名册名录</label>
+        </div>
+      </div>
+    </td>
+    <td>
+    
+    </td>
+  </tr>
+
+
+
+</table>
+
+      </div>
+    </form>
+
+
+
+
+
+
+    </div>
+    </div>
+</div><?php break; default: ?>未定义模块
       <?php endswitch; endforeach; endif; else: echo "" ;endif; ?>
 
 
